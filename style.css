@@ -1,0 +1,56 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+body{
+    font: 100% georgia, sans-serif;
+    background-image:url("background-image2.jpg");
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#tamulogo,#machinelearning,#code{
+    width:0%;
+    height:0%;
+}
+#about,#qualifications,#coursework,#projects,#service,#links {
+    line-height: 150%;
+    width: 50vw;
+    padding: 10px;
+    margin-left: 25vw;
+    margin-top:3vh;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  background-color: #f8f8f8;
+  opacity:.95;
+  }
+  #about{
+      margin-top: 10vh;
+  }
+  #links{
+    margin-bottom: 10vh;
+  }
+
+.sidenav {
+    height: 100%; 
+    width: 13vw; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: rgb(31, 29, 29);
+  }
+
+  .sidenav a {
+    font-size: 1.7vw;
+    color: #828282;
+    display: block;
+    padding: 5vh 10px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }

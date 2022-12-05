@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&family=Source+Sans+Pro:wght@600&display=swap');
+
+html {
+	margin: 0;
+	padding: 0;
+	}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about, #projects, #service, #links {
+    left:0;
+  opacity:.95;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 25vh;
+  line-height: 150%;
+  margin-top: 15vh;
+}
+
+
+#about p,#about h1,#about h2{
+    margin-right: 50vw;
+}
+ 
+#projects p, #service{
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+#tamulogo{
+    margin-right: 11vw;
+    margin-left: 6vw;
+    width: 25%;
+    float: right;
+    height: auto;
+}
+#qualifications, #coursework{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 35vh;
+    line-height: 150%;
+    margin-bottom: 10vh;
+}
+#machinelearning{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: 40%;
+    float: left;
+    height: auto;
+}
+#code{
+    margin-left: 6vw;
+    margin-right: 6vw;
+    width: 30%;
+    float: left;
+    height: auto;
+}
+#qualifications p, #qualifications h2, #coursework p, #coursework h2{
+    margin-left: 50vw;
+}
+.sidenav {
+    z-index: 50;
+    background-color: rgb(224, 224, 224);
+    top: 0; 
+    left:0;
+    width: 100%; 
+    height: 8vh;
+}
+
+
+  .sidenav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    font-size: 1.1vw;
+    padding: 1.1vw 8vh;
+    text-decoration: none;
+  }
+
+
+  .sidenav a:hover {
+    transition: all 0.5s ease;
+    background: #000;
+    color: #fff;
+  }
+
+ 
+
+

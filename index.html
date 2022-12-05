@@ -3,83 +3,144 @@
 <head>
 <title>TEST</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link id = "style" rel = "stylesheet" href="style.css">
+<script type="module" src = "script.js"></script>
 </head>
 
 <body>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="left"><h3><font color="#990000">Ethan Huynh</font></h3></td>
-  </tr>
-  <tr>
-    <td align="left"><font color="#990000">About: My name is Ethan Huynh and I am a sophomore Computer Science Student at Texas A&M. My primary goal is to become a software engineer, and I am also very interested in mathematics and machine learning.  </font></td>
-  </tr>
-  <tr>
-    <td align="left"><font color="#990000"><br>Qualifications: For programming languages, I am proficient in  C/C++, Java, JavaScript, HTML/CSS, Python.  I also have a basic understanding of Assembly, C#, and Scheme. 
+
+    <div class="sidenav">
+      <a href="#">About ethan</a>
+      <a href="#qualifications">Qualifications</a>
+      <a href="#coursework">Coursework</a>
+      <a href="#projects">Projects</a>
+      <a href="#service">Service</a>
+      <a href="#links">Other Links</a>
+      <a href="#" onclick="toggleStyle();">Toggle Style</a>
+    </div>
+
+ 
+
+  <div id = "about">
+    <img id = "tamulogo" src = "tamulogo.png">
+    <h1>
+      <center>Ethan Huynh</center>
+    </h1>
+    
+    <h2>
+      <center>About Me</center>
+    </h2>
+      <p> My name is Ethan Huynh and I am a sophomore Computer Science Student at Texas A&M. 
+        I am a self-motivated, fast learning developer that is always open to learning new skills. 
+         As of right now, my primary goal is to land a software engineering internship for the Summer of 2022 or 2023. 
+         My interests include machine learning, mathematics, and algorithms.   </p>
+  </div>
+
+
+
+
+<div id = "qualifications">
+  <img id = "machinelearning" src="machine-learning.jpg">
+  <h2>
+    <center>Qualifications</center>
+    </h2>
+    <p>
+      <b>Technical skills</b> 
+      <br>For programming languages, I am proficient in  C/C++, Java, JavaScript, HTML/CSS, Python.  I also have a basic understanding of Assembly, C#, and Scheme. 
       I am familiar with technologies such as Git, Github, VSCode, and Command line.  
-       </font></td>
-  </tr>
-  <tr>
-    <td align="left"><font color="#990000"><br>Technical Projects:
-       </font></td>
-  </tr>
-  <tr>
-    <td align="left"><font color="#990000">Chess AI
-      <br> -Long-term, independent project developed using HTML, CSS, and Javascript
-      <br> -Built a viable chess engine which utilized a minimax algorithm that can evaluate up to 60000 positions per move
-      <br> -The project utilizes visually appealing animations and graphics, and allows the user to customize the board and game settings to their liking
-       </font></td>
-  </tr>
+    <br><br>
+    <b>Interests</b>
+    <br><b>Machine Learning: </b> Programs that can make human decisions and behave like one have never ceased to impress me. There are many interesting problems that could be automated my machine learning models such as image recognition, text extraction, and chess AI.
+    <br><b>Algorithms: </b> I have always had a deep passion in mathematics and logic, and computer algorithms give you the best of both worlds.  Personally, I find solving problems with algorithms extremely satisfying.  
+    <br><br> <b><a href = "resumelink.pdf">Resume</a></b>
+    </p>
+      
 
-  <tr>
-    <td align="left"><font color="#990000">Caption Comparator 
-      <br> -Built a Java application that tokenized file input and differentiated outputted words between two captioning apps 
-      <br> -Utilized a Binary Search Tree to store and efficiently lookup statistics collected from the generated captions
-       </font></td>
-  </tr>
+</div>
+   <div id = "coursework">
+     <img id="code" src = "code.jpg">
+    <h2> 
+      <center>Relevant Coursework </center>
+    </h2>
+    <p>
+        <b>Past coursework:</b> Engineering Lab - Computation (ENGR 102), Introduction to Program Design and Concepts (CSCE 121), Data Structures and Algorithms (CSCE 221), Discrete Structures for Computing (CSCE 222), Computer Organization (CSCE 312), Programming Languages (CSCE 314)
+        <br><br>
+        <b>Current Coursework (Spring 2022): </b>Honors Introduction to Computer Systems (CSCE 313), Programming Studio (CSCE 315), Design and Analysis of Algorithms (CSCE 411), Seminar (CSCE 486)
 
-  <tr>
-    <td align="left"><font color="#990000">Smart planter 
-      <br> -Led the development of a C++ application that generated optimal crop spacing for farmers using SFML graphics and a minimax algorithm
-      <br> -Winner of the HackPSU - PlantVillage Challenge
-       </font></td>
-  </tr>
+    </p>
 
-  <tr>
-    <td align="left"><font color="#990000">Covid-19 Database 
-      <br> -Created a database that stored 150,000 rows of up-to-date Covid-19 data
-      <br> -Utilized queries to identify trends between mortality and vaccination rates between countries and continents
-       </font></td>
-  </tr>
+   </div>
+      <div id = "projects">
+        
+    
+        <h2>
+          <center> Technical Projects (<a href = "https://github.com/ethanhuynh0710">Github link</a>)</center>
+           </h2>
+        <p> <b><a href = "https://ethanhuynh0710.github.io/chess/">Chess AI</a></b>
+            <br> -Long-term, independent project developed using HTML, CSS, and Javascript
+            <br> -Built a viable chess engine which utilized a minimax algorithm that can evaluate up to 60000 positions per move
+            <br> -Utilized a variety of algorithms and data structures to store and manipulate data within the game
+            <br> -Utilized visually appealing animations and graphics, and allows the user to customize the board and game settings to their liking
+        
+            <br><br> <b>Caption Comparator </b>
+            <br> -Built a Java application that tokenized file input and differentiated outputted words between two captioning apps 
+            <br> -Utilized a Binary Search Tree to store and efficiently lookup statistics collected from the generated captions
+    
+           <br> <br><b><a href = "https://github.com/ethanhuynh5/Hackathon2">Smart planter</a> </b>
+          <br> -Led the development of a C++ application that generated optimal crop spacing for farmers using SFML graphics and a minimax algorithm
+          <br> -Winner of the HackPSU - PlantVillage Challenge
+    
+         <br> <br><b><a href = "https://github.com/ethanhuynh0710/Covid19_Database">Covid-19 Database </a></b>
+          <br> -Created a database that stored 150,000 rows of up-to-date Covid-19 data
+          <br> -Used data from the CDC's Covid Data Tracker to display relevant information
+          <br> -Utilized queries to identify trends between mortality and vaccination rates between countries and continents
+    
+          <br><br><b><a href = "https://github.com/syang0404/iSpyHowdyHack">iSpy</a></b>
+          
+          <br> -Collaborated with a team of 4 to create a website that tracked social media activity for a particular user
+          <br> -Used HTML and Javascript to develop the frontend and also allow the pages to communicate with each other
+          <br> -Submitted to HowdyHack 2020
+        
+          <br><br><b><a href = "https://github.com/ethanhuynh0710/TamuHack2022">Budget Buddy</a></b>
+          
+          <br> -Led the development of a website that allows the user to track their financial expenditures using a local database and various API's
+          <br> -Utilized Google Cloud's Vision API to parse words from a receipt pdf and automatically add the expenditure to the database
+          <br> -Used HTML, CSS, and Javascript to create the frontend and local database and used Python to implement the Google Cloud Vision API
+          <br> -Utilized AnyChart's API to visually represent data collected from the user through a pie chart
+          <br> -Submitted to Tamuhack 2022 as a solution to promote financial responsibility and budget tracking
+        
+        
+        </p>
 
-  <tr>
-    <td align="left"><font color="#990000"><br>Activities
-       </font></td>
-  </tr>
+      </div>
+      <div id = "service">
+        <h2>
+          <center>Service</center>
+        </h2>
+        <p>
+          <b>ASC Tutor (<i>Jan 2022 - Present</i>)</b>
+          <br>Conducted in-person tutoring sessions with college students on concepts related to computer science and mathematics
+          <br>
 
-  <tr>
-    <td align="left"><font color="#990000">Aggie Competitive Programming Club 	
-      <br> -Learned competitive programming concepts and regularly competed in contests
-      <br> -Improved problem solving skills through the use of algorithms, data structures, and mathematics
-       </font></td>
-  </tr>
+        </p>
+      </div>
+      <div id = "links">
+        <h2>
+          <center>Other links</center>
+        </h2>
+        <p>
+          <center>
+            <a href = "https://www.linkedin.com/in/ethan-huynh-04745b203/">Linkedin Profile</a>
+            <br>
+            <a href = "https://github.tamu.edu/ethanhuynh5">TAMU Github</a>
+            <br>
+            <a href = "https://devpost.com/ethanhuynh5?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">Devpost Portfolio</a>
+            <br>
+            <a href = "https://ethanhuynh0710.github.io/">Other Personal Website</a>
+          </center>
+          
+        </p>
 
-  <tr>
-    <td align="left"><font color="#990000">Aggie Coding Club 	
-      <br> -Attended weekly meetings learning about common software engineering practices and essential soft skills
-      <br> -Learned essential computer science skills (Github, top-down, etc)  and worked on projects with teams
-       </font></td>
-  </tr>
-
-  <tr>
-    <td align="left"><font color="#990000">TamuHack 	
-      <br> -Competed in hackathons annually against other teams
-      <br> -Learned a variety of different technologies and skillsets such as HTML, CSS, Javascript, and many API's
-      <br> -Collaborated with teams of up to 4 to solve a particular problem
-       </font></td>
-  </tr>
-
-  <a href = "about.html">About</a>
-</table>
-
+      </div>
 </body>
 </html>
